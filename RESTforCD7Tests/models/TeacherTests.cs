@@ -11,7 +11,7 @@ namespace RESTforCD7.models.Tests
     [TestClass()]
     public class TeacherTests
     {
-        [TestMethod()]
+        [TestMethod]
         public void ValidateSalaryTest()
         {
             Teacher teacherSalaryPositive = new() { Salary = -1 };

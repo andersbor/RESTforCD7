@@ -14,7 +14,7 @@ namespace RESTforCD7.models.Tests
         [TestMethod()]
         public void ValidateSalaryTest()
         {
-            Teacher teacherSalaryPositive = new() { Salary = 1 };
+            Teacher teacherSalaryPositive = new() { Salary = -1 };
             Teacher teacherSalaryZero = new() { Salary = 0 };
             Teacher teacherSalaryNegative = new() { Salary = -1 };
             teacherSalaryPositive.ValidateSalary();
